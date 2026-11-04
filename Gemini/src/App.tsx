@@ -1,13 +1,16 @@
-// import { useState } from 'react'
+import {BrowserRouter, Routes, Route} from "react-router-dom"
+import './index.css'
+import Navbar from "./components/Navbar";
 
-function App() {
-
-
-  return (
-    <>
-      
-    </>
-  )
+export default function App() {
+      return (
+            <div className="bg-black">
+                  <BrowserRouter>
+                        <Navbar />
+                        <Routes>
+                              <Route path='/' element = ''/>
+                        </Routes>
+                  </BrowserRouter>
+            </div>
+      )
 }
-
-export default App
