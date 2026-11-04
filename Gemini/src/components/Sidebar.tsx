@@ -1,9 +1,9 @@
 //import {Clock, GraduationCap, Ellipsis, Plus, SquarePen, ChevronDown, LayoutGrid, SquarePen} from "lucide-react";
 
-export default function Navbar(){
+export default function Sidebar(){
      return (
-      <aside className="navbar w-64 h-full bg-black">
-            <div className="display-flex align-center justify-between">
+      <aside className="Sidebar w-64 h-full bg-black text-white">
+            <div className="flex items-center justify-between">
                   <div></div>
                   <div></div>
             </div>

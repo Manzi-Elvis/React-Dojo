@@ -1,16 +1,16 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import './index.css'
-import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
 
 export default function App() {
       return (
-            <div className="bg-black">
+            <>
                   <BrowserRouter>
-                        <Navbar />
+                        <Sidebar />
                         <Routes>
-                              <Route path='/' element = ''/>
+                              <Route path='/' element = {<h1>GEMINI</h1>}/>
                         </Routes>
                   </BrowserRouter>
-            </div>
+            </>
       )
 }
