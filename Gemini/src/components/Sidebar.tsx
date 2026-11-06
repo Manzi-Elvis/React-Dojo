@@ -1,4 +1,4 @@
-import {Sparkles, Search, PanelLeft, X, Filter, Clock, GraduationCap, Ellipsis, Plus, SquarePen, Settings, LayoutGrid, Images} from "lucide-react";
+import {Search, PanelLeft, X, Filter, Clock, GraduationCap, Ellipsis, Plus, SquarePen, Settings, LayoutGrid, Images} from "lucide-react";
 
 interface SidebarProps {
       isOpen: boolean;
@@ -13,7 +13,7 @@ const Sidebar = ( {isOpen, onClose}: SidebarProps) => {
             {label: "Scheduled", icon: Clock},
             {label: "Students", icon: GraduationCap},
             {label: "More", icon: Ellipsis},
-      ]
+      ];
       return (
       <>
       {isOpen && (
@@ -22,10 +22,10 @@ const Sidebar = ( {isOpen, onClose}: SidebarProps) => {
       <aside className={`fixed inset-y-0 left-0 z-50 flex w-75 flex-col bg-[#1f1f1f] text-[#e3e3e3] transition-transform duration-300 lg:static lg:z-auto lg:w-75 lg:translate-x-0 ${isOpen ? "translate-x-0" : "-translate-x-full"}`}>
             <div className="flex h-16.25 items-center justify-between px-5">
                   <div className="flex items-center gap-3">
-                        <Sparkles size={30} className="text-blue-400" fill="url(#gemini-gradient)" />
+                        <img src="/public/favicon.svg" className="w-8"/>
                         <span className="text-[23px] font-semibold tracking-tight">Gemini</span>
                   </div>
-                  <div className="flex items-center gap-5 text-[#aaa]">
+                  <div className="flex items-center gap-2 text-[#aaa]">
                         <Search size={21} className="cursor-pointer hover:text-white" />
                         <PanelLeft size={21} className="hidden cursor-pointer hover:text-white lg:block"/>
                         <button onClick={onClose} className="lg:hidden">
@@ -33,7 +33,7 @@ const Sidebar = ( {isOpen, onClose}: SidebarProps) => {
                         </button>
                   </div>
             </div>
-            <nav className="mt-2 flex flex-col gap-1 px-2.75">
+            <nav className="mt-2 flex flex-col px-2">
                   {navigation.map((item) => {
                         const Icon = item.icon;
                         return (
