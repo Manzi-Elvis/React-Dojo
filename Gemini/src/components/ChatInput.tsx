@@ -11,7 +11,7 @@ const ChatInput = () => {
             setMessage("");
       };
       return (
-            <form onSubmit = {handleSubmit} className = "mx-auto flex min-h-21.5 w-full max-w-222.5 items-center gap-3 rounded-[45px] bg-[#1f1f1f] px-5 py-4 shadow-lg sm:gap-5 sm:px-7">
+            <form onSubmit = {handleSubmit} className = "mx-auto flex min-h-12 sm:w-150 max-w-222.5 items-center gap-3 rounded-[45px] bg-[#1f1f1f] px-5 py-4 shadow-lg sm:gap-5 sm:px-7">
                   <button type="button" className="shrink-0 text-white transition hover:text-gray-400">
                         <Plus size={29} strokeWidth={1.8}/>
                   </button>
