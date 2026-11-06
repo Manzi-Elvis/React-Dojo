@@ -37,7 +37,7 @@ const Sidebar = ( {isOpen, onClose}: SidebarProps) => {
                   {navigation.map((item) => {
                         const Icon = item.icon;
                         return (
-                              <button key={item.label} onClick={onClose} className = {`flex h-11 items-center gap-5 rounded-full px-[13px] text-left text-[16px] font-medium transition-colors ${item.active ? "bg-[#171717] text-white" : "hover:bg-[#2a2a2a] text-[#dedede]"}`}>
+                              <button key={item.label} onClick={onClose} className = {`flex h-11 items-center gap-5 rounded-full px-3.25 text-left text-[16px] font-medium transition-colors ${item.active ? "bg-[#171717] text-white" : "hover:bg-[#2a2a2a] text-[#dedede]"}`}>
                                     <Icon size={21} strokeWidth={2}/>
                                     {item.label}
                               </button>
@@ -45,23 +45,23 @@ const Sidebar = ( {isOpen, onClose}: SidebarProps) => {
                   })}
             </nav>
 
-            <div className="mt-6 px-[22px]">
+            <div className="mt-6 px-5.5">
                   <p className="mb-3 text-[16px] font-medium text-[#999]">Notebooks</p>
-                  <button className="flex h-[42px] items-center gap-5 text-[16px] font-medium hover:text-white">
+                  <button className="flex h-10.5 items-center gap-5 text-[16px] font-medium hover:text-white">
                         <Plus size={24}/>
                         New Notebook
                   </button>
             </div>
-            <div className="mt-6 flex-1 overflow-y-auto px-[22px]">
+            <div className="mt-6 flex-1 overflow-y-auto px-5.5">
                   <div className="mb-4 flex items-center justify-between">
                         <span className="text-[16px] font-medium text-[#999]">All</span>
                         <Filter size={19} className="cursor-pointer text-[#999]" />
                   </div>
                   <button className="w-full truncate text-left text-[15px] font-medium hover:text-white">General Assistance Offer</button>
             </div>
-            <div className="flex h-[76px] items-center justify-between px-[19px]">
+            <div className="flex h-19 items-center justify-between px-4.75">
                   <div className="flex min-w-0 items-center gap-3">
-                        <div className="flex w-[38px] h-[38px] shrink-0 items-center justify-center rounded-full bg-[#777] text-sm font-bold text-white">M</div>
+                        <div className="flex w-9.5 h-9.5 shrink-0 items-center justify-center rounded-full bg-[#777] text-sm font-bold text-white">M</div>
                         <span className="truncate text-[16px] font-medium">MANZI RURANGIRWA Elvis</span>
                   </div>
                   <button className="ml-2 shrink-0 text-[#ccc] hover:text-white">
