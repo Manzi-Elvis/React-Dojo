@@ -15,7 +15,7 @@ export function Recent(){
                   <div className="flex flex-wrap gap-4">
                         {recent.map((item) => {
                               return(
-                                    <div key={item.text} className="w-50 h-26 rounded-lg overflow-hidden border-b-gray-600">
+                                    <div key={item.text} className="w-52.75 h-27 rounded-lg overflow-hidden border-b-gray-600">
                                           <img src = {item.image} alt={item.text} className="w-full h-16 object-cover"/>
                                           <p className="p-3 text-sm font-medium">{item.text}</p>
                                     </div>
