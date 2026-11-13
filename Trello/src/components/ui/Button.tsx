@@ -10,9 +10,9 @@ export default function Button(){
             button.map((item) => {
                   const Icon = item.icon;
                   return (
-                        <div className="flex gap-3">
-                        <button key={item.label} className={`flex gap-2 rounded-lg p-2 font-semibold ${item.isPurple ? "bg-[#35243F] border border-[#2E2932]" : "bg-[#2C2C2E] hover:text-[#505258]"}`}>
-                              <Icon className={`${item.isPurple? "bg-[#C97CF4] text-black" : ""}`}/>
+                        <div className="flex">
+                        <button key={item.label} className={`flex items-center cursor-pointer gap-1 rounded-sm p-1 px-2 font-medium text-sm ${item.isPurple ? "bg-[#35243F] border border-[#2E2932] hover:bg-[#53475C]" : "bg-[#2C2C2E] hover:text-[#505258]"}`}>
+                              <Icon className={`font-medium ${item.isPurple? "bg-[#C97CF4] text-black" : ""}`}/>
                               {item.label}
                         </button>
                         </div>
