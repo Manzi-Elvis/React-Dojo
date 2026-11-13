@@ -14,12 +14,11 @@ export default function Dashboard(){
                   <div>
                         <h2 className="font-bold">YOUR WORKSPACES</h2>
                   </div>
-                  <div className="flex justify-between">
-                        <div>
-                             <TrelloSign/>
-                             <Button/>
+                  <div className="flex justify-between px-12">
+                        <TrelloSign/>
+                        <div className="flex gap-3">
+                              <Button/>
                         </div>
-                        <div></div>
                   </div>
                   <div>
                         <Workspace />
