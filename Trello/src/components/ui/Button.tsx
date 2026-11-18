@@ -12,7 +12,7 @@ export default function Button(){
                   return (
                         <div className="flex">
                         <button key={item.label} className={`flex items-center cursor-pointer gap-1 rounded-sm p-1 px-2 font-medium text-sm ${item.isPurple ? "bg-[#35243F] border border-[#2E2932] hover:bg-[#53475C]" : "bg-[#2C2C2E] hover:text-[#505258]"}`}>
-                              <Icon className={`font-medium ${item.isPurple? "bg-[#C97CF4] text-black" : ""}`}/>
+                              <Icon className={`font-medium ${item.isPurple? "]rounded-lg bg-[#C66BE7] flex items-center justify-center text-[#28202D]" : ""}`}/>
                               {item.label}
                         </button>
                         </div>
