@@ -22,7 +22,7 @@ export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <aside className="w-80 h-screen bg-[#1F1F21] text-[#A9ABAF] pt-8">
+    <aside className="w-80 h-[calc(100vh-48px)] bg-[#1F1F21] text-[#A9ABAF] pt-8">
       <div className=" flex flex-col justify-center gap-1 py-4">
         {navigation.map((item) => {
           const Icon = item.icon;
