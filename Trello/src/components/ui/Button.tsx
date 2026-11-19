@@ -1,4 +1,4 @@
-import {Columns3, User, Settings, BriefcaseBusiness} from "lucide-react"
+import {Columns3, User, Settings, BriefcaseBusiness, UserRoundPlus} from "lucide-react"
 export default function Button(){
       const button = [
             {label: "Boards" , icon: Columns3},
@@ -18,5 +18,14 @@ export default function Button(){
                         </div>
                   )
             })
+      )
+}
+
+export function WhiteBtn () {
+      return (
+      <button className="flex items-center gap-1 bg-[#DCDFE4] text-[#516079] rounded-sm px-2 py-1">
+            <UserRoundPlus size={18}/>
+            <p>Share</p>
+      </button>
       )
 }
