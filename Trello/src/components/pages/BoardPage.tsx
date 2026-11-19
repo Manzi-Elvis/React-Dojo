@@ -7,10 +7,9 @@ export default function BoardPage(){
       if(!board) return <h1>Board Not Found!!!!!!</h1>
       return(
             <div className="min-h-screen bg-cover bg-center" style={{backgroundImage : `url(${board.background})`}}>
+                  
                   <BoardNav />
-                  <header className="p-5 text-white">
-                        <h1 className="text-2xl font-bold">{board.title}</h1>
-                  </header>
+                  
                   <div className="flex gap-4 p-4 overflow-x-auto">
                         {board.lists.map((list) => (
                               <div key={list.id} className="bg-[#101204] rounded-xl p-4 min-w-64">
