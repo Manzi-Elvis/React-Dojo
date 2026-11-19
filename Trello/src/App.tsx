@@ -1,25 +1,19 @@
-import NavBar from "./components/NavBar"
-import Sidebar from "./components/SideBar"
-import {BrowserRouter, Routes, Route} from "react-router-dom"
-import Dashboard from "./components/pages/Dashboard"
-import Board from "./components/layouts/Board"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Dashboard from "./components/pages/Dashboard";
+import BoardPage from "./components/pages/BoardPage";
+import MainLayout from "./components/layouts/mainLayout";
+
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <NavBar/>
-        <div className="flex">
-          <Sidebar/>
-          <main className="flex-1">
-            <Routes>
-              <Route path="/" element={<Dashboard/>}/>
-              <Route path = "/" element = {<Board/>}/>
-            </Routes>
-          </main>
-        </div>
-      </BrowserRouter>
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route element={<MainLayout />}>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/boards/:boardId" element={<BoardPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
