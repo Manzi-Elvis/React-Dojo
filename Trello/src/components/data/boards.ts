@@ -1,6 +1,6 @@
 import type {Board} from "../../types/boards";
 import img1 from "../../assets/img1.webp";
-import img2 from "../../assets/img2.svg";
+import img2 from "../../assets/img2.png";
 import img3 from "../../assets/img3.webp";
 import img4 from "../../assets/img4.webp"
 
@@ -16,12 +16,12 @@ export const Boards : Board[] = [
                         cards: ["Implementing the main dashboard","Making components for the boxes",],
                   },
                   {
-                        id: "list1",
+                        id: "list2",
                         title: "DOING",
                         cards: ["Implementing the main dashboard","Making components for the boxes"]
                   },
                   {
-                        id: "list1",
+                        id: "list3",
                         title: "DONE",
                         cards: ["Implementing the main dashboard","Making components for the boxes"]
                   }
@@ -38,12 +38,12 @@ export const Boards : Board[] = [
                         cards: ["Implementing the main dashboard","Making components for the boxes",],
                   },
                   {
-                        id: "list1",
+                        id: "list2",
                         title: "DOING",
                         cards: ["Implementing the main dashboard","Making components for the boxes"]
                   },
                   {
-                        id: "list1",
+                        id: "list3",
                         title: "DONE",
                         cards: ["Implementing the main dashboard","Making components for the boxes"]
                   }
@@ -60,12 +60,12 @@ export const Boards : Board[] = [
                         cards: ["Implementing the main dashboard","Making components for the boxes",],
                   },
                   {
-                        id: "list1",
+                        id: "list2",
                         title: "DOING",
                         cards: ["Implementing the main dashboard","Making components for the boxes"]
                   },
                   {
-                        id: "list1",
+                        id: "list3",
                         title: "DONE",
                         cards: ["Implementing the main dashboard","Making components for the boxes"]
                   }
@@ -82,12 +82,12 @@ export const Boards : Board[] = [
                         cards: ["Implementing the main dashboard","Making components for the boxes",],
                   },
                   {
-                        id: "list1",
+                        id: "list2",
                         title: "DOING",
                         cards: ["Implementing the main dashboard","Making components for the boxes"]
                   },
                   {
-                        id: "list1",
+                        id: "list3",
                         title: "DONE",
                         cards: ["Implementing the main dashboard","Making components for the boxes"]
                   }
@@ -104,12 +104,12 @@ export const Boards : Board[] = [
                         cards: ["Implementing the main dashboard","Making components for the boxes",],
                   },
                   {
-                        id: "list1",
+                        id: "list2",
                         title: "DOING",
                         cards: ["Implementing the main dashboard","Making components for the boxes"]
                   },
                   {
-                        id: "list1",
+                        id: "list3",
                         title: "DONE",
                         cards: ["Implementing the main dashboard","Making components for the boxes"]
                   }
@@ -126,12 +126,12 @@ export const Boards : Board[] = [
                         cards: ["Implementing the main dashboard","Making components for the boxes",],
                   },
                   {
-                        id: "list1",
+                        id: "list2",
                         title: "DOING",
                         cards: ["Implementing the main dashboard","Making components for the boxes"]
                   },
                   {
-                        id: "list1",
+                        id: "list3",
                         title: "DONE",
                         cards: ["Implementing the main dashboard","Making components for the boxes"]
                   }
@@ -148,12 +148,12 @@ export const Boards : Board[] = [
                         cards: ["Implementing the main dashboard","Making components for the boxes",],
                   },
                   {
-                        id: "list1",
+                        id: "list2",
                         title: "DOING",
                         cards: ["Implementing the main dashboard","Making components for the boxes"]
                   },
                   {
-                        id: "list1",
+                        id: "list3",
                         title: "DONE",
                         cards: ["Implementing the main dashboard","Making components for the boxes"]
                   }
@@ -170,12 +170,12 @@ export const Boards : Board[] = [
                         cards: ["Implementing the main dashboard","Making components for the boxes",],
                   },
                   {
-                        id: "list1",
+                        id: "list2",
                         title: "DOING",
                         cards: ["Implementing the main dashboard","Making components for the boxes"]
                   },
                   {
-                        id: "list1",
+                        id: "list3",
                         title: "DONE",
                         cards: ["Implementing the main dashboard","Making components for the boxes"]
                   }
@@ -192,12 +192,12 @@ export const Boards : Board[] = [
                         cards: ["Implementing the main dashboard","Making components for the boxes",],
                   },
                   {
-                        id: "list1",
+                        id: "list2",
                         title: "DOING",
                         cards: ["Implementing the main dashboard","Making components for the boxes"]
                   },
                   {
-                        id: "list1",
+                        id: "list3",
                         title: "DONE",
                         cards: ["Implementing the main dashboard","Making components for the boxes"]
                   }
