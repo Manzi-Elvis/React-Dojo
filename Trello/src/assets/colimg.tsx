@@ -1,12 +1,12 @@
 import type { SVGProps } from "react";
 import type { JSX } from "react/jsx-runtime";
 
-const colimg = (props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) => (
+const Colimg = (props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) => (
   <svg
     fill="none"
     viewBox="0 0 16 16"
     role="presentation"
-    className="_1reo15vq _18m915vq _syaz1r31 _lcxvglyw _s7n4yfq0 _vc881r31 _1bsbpxbi _4t3ipxbi"
+    className="text-white w-4 _1reo15vq _18m915vq _syaz1r31 _lcxvglyw _s7n4yfq0 _vc881r31 _1bsbpxbi _4t3ipxbi"
     {...props}
   >
     <path
@@ -15,4 +15,4 @@ const colimg = (props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-export default colimg;
+export default Colimg;
