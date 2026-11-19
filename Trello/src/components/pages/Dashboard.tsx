@@ -1,10 +1,13 @@
 import {Clock} from "lucide-react"
-import {Recent, Workspace} from "./ui/box"
-import TrelloSign from "./ui/trelloSign"
-import Button from "./ui/Button"
+import {Recent, Workspace} from "../ui/box"
+import TrelloSign from "../ui/trelloSign"
+import Button from "../ui/Button"
+import Sidebar from "../SideBar"
 export default function Dashboard(){
       return(
-            <section className="bg-[#1F1F21] text-[#A9ABAF] h-full pl-8 flex flex-col gap-8">
+      <div className="flex min-h-[calc(100vh-48px)] bg-[#1F1F21]">
+            <Sidebar/>
+            <section className="bg-[#1F1F21] text-[#A9ABAF] h-full pl-8 flex flex-1 flex-col gap-8">
                   <div className="flex flex-col gap-5">
                         <p className="flex gap-2 pt-8 font-bold text-lg items-center">
                               <Clock/> Recently viewed
@@ -24,5 +27,6 @@ export default function Dashboard(){
                         <Workspace />
                   </div>
             </section>
+      </div>
       )
 }
