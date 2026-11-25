@@ -1,10 +1,5 @@
+import Display from './components/Display.tsx'
 function App() {
- 
-  return (
-    <>
-      
-    </>
-  )
+  return <Display />
 }
-
 export default App
